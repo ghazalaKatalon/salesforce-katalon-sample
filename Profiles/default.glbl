@@ -11,12 +11,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Please enter your username'</initValue>
+      <initValue>''</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Please enter your password'</initValue>
+      <initValue>''</initValue>
       <name>PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>caseNumber</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
