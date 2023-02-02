@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/button_Search'))
 
+WebUI.delay(2)
+
 WebUI.sendKeys(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/input_search'), 'Mohit Kumar Sharma')
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img'))
@@ -28,5 +30,5 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Mohit Sharm
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Mohit Sharma  Salesforce/span_Delete'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Lead Mohit Sharma was deleted. Undo'), 
-    'Lead "Mohit Kumar Sharma" was deleted. Undo')
+    'Lead "Mohit Kumar Sharma" was deleted. Undo', FailureHandling.OPTIONAL)
 

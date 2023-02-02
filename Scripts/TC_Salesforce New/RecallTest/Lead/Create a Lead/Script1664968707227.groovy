@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead 
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/button_New'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/span_Working'))
 

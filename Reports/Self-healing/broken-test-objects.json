@@ -2,23 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img_Mohit Kuma_icon",
-      "brokenLocator": ".//div[contains(@title, \u0027Srivatsa\u0027)]",
+      "testObjectId": "Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Lead Mohit Sharma was deleted. Undo",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027success\u0027])[1]/following::span[1]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//img[@src \u003d \u0027https://katalon-inc--demo.sandbox.my.salesforce.com/img/icon/t4v35/standard/user_120.png\u0027 and @class \u003d \u0027icon \u0027 and @alt \u003d \u0027User\u0027 and @title \u003d \u0027User\u0027]",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[3]/following::span[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/OR_Salesforce New/Dashboard/Page_Katalon Dashboard  Salesforce/button_Delete",
-      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Close tooltip\u0027])[1]/preceding::button[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Dashboard/Page_Katalon Dashboard  Salesforce/button_Delete_neighbor.png"
     }
   ]
 }

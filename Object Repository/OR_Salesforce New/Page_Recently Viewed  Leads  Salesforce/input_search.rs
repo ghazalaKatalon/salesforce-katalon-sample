@@ -6,11 +6,12 @@
    <elementGuidId>4f76711d-5105-4e24-8235-30b7588f60b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>.//*[@placeholder = 'Search...' or @placeholder = 'Search Leads and more...']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>.//*[@type='search' and contains(@aria-controls, 'suggestionsList')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

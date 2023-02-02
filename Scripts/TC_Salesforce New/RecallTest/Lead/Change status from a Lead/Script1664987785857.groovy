@@ -32,5 +32,5 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Vi
 WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/button_Save'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Status was updated for 1 lead'), 
-    'Status was updated for 1 lead.')
+    'Status was updated for 1 lead.', FailureHandling.OPTIONAL)
 

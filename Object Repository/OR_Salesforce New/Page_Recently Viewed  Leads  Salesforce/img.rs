@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//img[@title='Lead'])[2]</value>
+         <value>//div/records-highlights-icon/force-record-avatar/span/img</value>
       </entry>
       <entry>
          <key>CSS</key>
