@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Complex functionality'])[1]/following::a[1]</value>
+         <value>//span[(text()='Existing problem')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4f989cc2-ae8d-4fdf-83d6-4c1a365a6cac</webElementGuid>
+      <webElementGuid>d3212493-ff43-43ae-9aca-4bab71a9c3a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>17989:0</value>
-      <webElementGuid>8db0cea0-6bc0-4740-bf45-3b87f4036a83</webElementGuid>
+      <webElementGuid>20d58692-132c-4c31-8b38-2ef35d8fb356</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
-      <webElementGuid>3a9a2bf7-f525-404f-83f3-0b3282648153</webElementGuid>
+      <webElementGuid>e8279661-01ed-4f34-887d-ff5fb33e1e13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitemradio</value>
-      <webElementGuid>ff7c97ef-3f76-4629-b828-38844304f654</webElementGuid>
+      <webElementGuid>aa94e374-3b3a-4bcb-9e2b-6ff1e0b9dc1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>23ec21d2-a3b3-486e-aabf-fb9cb960a4f2</webElementGuid>
+      <webElementGuid>f8c416eb-e9a7-41ec-8061-bd7e46b1bab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7c6d9b9e-356d-4cd7-9180-7307e0b52c0a</webElementGuid>
+      <webElementGuid>f4a09c6b-7356-46a7-b2de-1e8635e37ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Existing problem</value>
-      <webElementGuid>d9e386c4-97f7-4e26-b432-1c107bcc2d81</webElementGuid>
+      <webElementGuid>1befcf96-8ce8-4720-954f-89bca1b1c357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a22f1672-1162-40a5-b7f8-a80160645926</webElementGuid>
+      <webElementGuid>0e52400c-6cf9-4272-beda-91248923126d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Existing problem</value>
-      <webElementGuid>5205f584-1d06-4298-a506-568462c9b22a</webElementGuid>
+      <webElementGuid>a00c6183-f579-4094-9298-deccf2912c99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;17295:0&quot;)/div[@class=&quot;select-options&quot;]/ul[@class=&quot;scrollable&quot;]/li[@class=&quot;uiMenuItem uiRadioMenuItem&quot;]/a[1]</value>
-      <webElementGuid>0f978c5d-28df-4a68-bd1e-b6dc52cf94fc</webElementGuid>
+      <webElementGuid>1eda1b08-c4eb-4921-9a51-7fd149cad4e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Complex functionality'])[1]/following::a[1]</value>
-      <webElementGuid>cea1db96-bf0f-4d33-8bbb-b1d85b9280f2</webElementGuid>
+      <webElementGuid>36c3ab7e-1932-4955-a75b-f7416001bc8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('User didn', &quot;'&quot;, 't attend training')])[1]/following::a[2]</value>
-      <webElementGuid>a7c9fd9d-8adf-4ab1-98ab-c3573a4c54ec</webElementGuid>
+      <webElementGuid>ac7c2d41-f8a9-46ed-b58f-d54935927f5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructions not clear'])[1]/preceding::a[1]</value>
-      <webElementGuid>be7a5a4c-bf8d-4baf-84de-10ea35b4c1d4</webElementGuid>
+      <webElementGuid>ff61d21e-8231-4355-a6b9-1edff3507b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New problem'])[1]/preceding::a[2]</value>
-      <webElementGuid>45b9265d-8209-43a5-aae4-95ab4210925d</webElementGuid>
+      <webElementGuid>a037eb04-b638-4514-a369-60e2d2c532f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Existing problem']/parent::*</value>
-      <webElementGuid>41352de9-4e25-4dfd-b5f5-b3286dc12c67</webElementGuid>
+      <webElementGuid>ca281b20-26eb-4da7-b9a2-f406082d7a98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0);' and @role = 'menuitemradio' and @title = 'Existing problem' and (text() = 'Existing problem' or . = 'Existing problem')]</value>
-      <webElementGuid>c035bbf7-3bc5-4e40-83be-4e6d470ac133</webElementGuid>
+      <webElementGuid>47cf5452-996d-4116-9aff-4003c27eff79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='17295:0']/div/ul/li[4]/a</value>
-      <webElementGuid>86272e5d-bf14-474b-aa9c-8db5e23d3239</webElementGuid>
+      <webElementGuid>ab8d36fc-9f85-47c3-96b7-b4dab2752fab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Existing problem')]</value>
-      <webElementGuid>34acb021-c677-4f83-b3cd-d0f686f1ffcb</webElementGuid>
+      <webElementGuid>b3c8a44e-aa71-4f45-88f1-8e7d024959e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0);')])[48]</value>
-      <webElementGuid>2f275057-8110-412a-9714-faaa63b0cbc5</webElementGuid>
+      <webElementGuid>56ba2ade-4a76-45ef-b285-8db4e6631463</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +174,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[12]/div/ul/li[4]/a</value>
-      <webElementGuid>b8ed37b1-4965-406d-ba20-cc80e6d236a1</webElementGuid>
+      <webElementGuid>795aeeb2-0f00-4eba-b74c-83c1ce49f93b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

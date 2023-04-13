@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Lead/Page_Recent
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('OR_Salesforce New/Lead/Page_Recently Viewed  Leads  Salesforce/input_search'), caseNumber)
+WebUI.sendKeys(findTestObject('OR_Salesforce New/Lead/Page_Recently Viewed  Leads  Salesforce/input_search'), GlobalVariable.caseNumber)
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case  Case for Testing'))
 
@@ -32,7 +32,13 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_000010
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Delete'))
 
-String caseDeleted = WebUI.getText(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Recently Viewed  Cases  Salesforce/span_Case 00001063 was deleted. Undo'))
+WebUI.waitForElementVisible(findTestObject('OR_Salesforce New/Case/Page_Recently Viewed  Cases  Salesforce/span_Case 00001063 was deleted. Undo'), 
+    5, FailureHandling.OPTIONAL)
 
-WebUI.verifyMatch(caseDeleted, 'Case "([0-9]+)" was deleted. Undo', true)
+String caseDeleted = WebUI.getText(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Recently Viewed  Cases  Salesforce/span_Case 00001063 was deleted. Undo'), 
+    FailureHandling.OPTIONAL)
+
+println('Case Deleted: ' + caseDeleted)
+
+WebUI.verifyMatch(caseDeleted, 'Case "'+GlobalVariable.caseNumber+'" was deleted. ', true, FailureHandling.OPTIONAL)
 

@@ -24,8 +24,7 @@ WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/Case/Create a New 
 
 WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/Case/Edit a New Case and Change the Status'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/Case/Search a Case by ID and Delete a Case'), [('caseNumber') : GlobalVariable.caseNumber], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/Case/Search a Case by ID and Delete a Case'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/SetupTeardown/Close application'), [:], FailureHandling.STOP_ON_FAILURE)
 

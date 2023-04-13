@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>.//*[@type='search' and contains(@aria-controls, 'suggestionsList')]</value>
+         <value>.//*[@placeholder = 'Search...' or @placeholder = 'Search Cases and more...']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

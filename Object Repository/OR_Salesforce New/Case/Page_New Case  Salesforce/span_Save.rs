@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save &amp; New'])[1]/following::span[1]</value>
+         <value>.//button[@name='SaveEdit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5135dada-7e60-4f4b-8341-6ba915e6f2ba</webElementGuid>
+      <webElementGuid>2e64a387-8789-46f6-b1f0-04b85d329f01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>ltr</value>
-      <webElementGuid>1207cec4-b3db-43a3-a5c5-9a7e0c2fdc1a</webElementGuid>
+      <webElementGuid>088cb02a-be79-4836-ae53-d6cd3dba067e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value> label bBody</value>
-      <webElementGuid>1a71ad24-8131-4708-8799-3ecf0272e893</webElementGuid>
+      <webElementGuid>8b48cc3d-f944-4d47-911b-a06ebddb3be7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>12775:0</value>
-      <webElementGuid>cacec17d-6050-4f14-ad03-b6bb6b8f722c</webElementGuid>
+      <webElementGuid>44a2cf53-a081-41e3-94ce-64898ee80355</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>bd3eae18-3000-4b4c-afd9-af6813a1674e</webElementGuid>
+      <webElementGuid>362b44fd-4a16-4e0c-9c50-0477dbfe9300</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content_11613:0&quot;)/div[@class=&quot;windowViewMode-normal oneRecordActionWrapper isModal active lafPageHost&quot;]/div[@class=&quot;isModal inlinePanel oneRecordActionWrapper&quot;]/div[@class=&quot;inlineFooter&quot;]/div[@class=&quot;button-container slds-text-align_right forceRecordEditActions&quot;]/div[@class=&quot;actionsContainer&quot;]/div[@class=&quot;button-container-inner slds-float_right&quot;]/button[@class=&quot;slds-button slds-button--neutral uiButton--brand uiButton forceActionButton&quot;]/span[@class=&quot;label bBody&quot;]</value>
-      <webElementGuid>31cf6b5c-1cd6-4a41-a833-26bf35164a77</webElementGuid>
+      <webElementGuid>aeb8b4d5-d4e2-4715-90da-67d0813836da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save &amp; New'])[1]/following::span[1]</value>
-      <webElementGuid>246434de-8d8f-4c19-9d18-68236ebabbc6</webElementGuid>
+      <webElementGuid>d4af2238-aa89-4b6c-b5ad-faa6ac7f1649</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::span[2]</value>
-      <webElementGuid>8ffa9fcd-dd7c-41a6-a32e-8dcc007c7815</webElementGuid>
+      <webElementGuid>28071416-41ce-4534-b466-620c2d2b05a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[5]/preceding::span[1]</value>
-      <webElementGuid>df022f2a-f56b-4e28-bd04-814f4b42022b</webElementGuid>
+      <webElementGuid>bc273ada-b106-4802-9ae3-28f0ce59c108</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='--None--'])[4]/preceding::span[4]</value>
-      <webElementGuid>3bd18aed-5f79-4eac-84b9-9e7e931dd24b</webElementGuid>
+      <webElementGuid>39504856-2065-4426-ab8b-d9a0683009bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@class = ' label bBody' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>de3434d1-9167-44cd-a321-9f7325a06082</webElementGuid>
+      <webElementGuid>5239c533-c6c1-4701-96e3-c23d2f8b0c8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content_11613:0']/div/div/div[2]/div/div/div[2]/button[3]/span</value>
-      <webElementGuid>7cfebdb6-ff7f-4b93-a215-38a03ffb43f8</webElementGuid>
+      <webElementGuid>2005ad54-3978-4e45-8225-ffa809385cd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[3]/span</value>
-      <webElementGuid>b1d8b8f1-6de8-4e1c-8c80-f9ebfdcd8bba</webElementGuid>
+      <webElementGuid>2958c370-e3da-4731-96c7-3291218c26b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

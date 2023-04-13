@@ -11,17 +11,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'mohit.kumar@katalon.com'</initValue>
+      <initValue>'Enter your username'</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Katalon@3'</initValue>
+      <initValue>'Enter your password'</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'00000001'</initValue>
       <name>caseNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'false'</initValue>
+      <name>SKIP_REMAINING_TESTS</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

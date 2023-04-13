@@ -11,7 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='success'])[1]/following::span[1]</value>
+         <value>.//*[@data-key='success']//span[@class='toastMessage slds-text-heading--small forceActionsText']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(ends-with(text(), 'Case ([0-9]+) was saved.') or ends-with(., 'Case ([0-9]+) was saved.'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a8549d3b-aa48-4220-af21-6b54eb3f5e9a</webElementGuid>
+      <webElementGuid>20a51501-6c28-4a7b-aa6b-94e9c040851d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>toastMessage slds-text-heading--small forceActionsText</value>
-      <webElementGuid>7c33d5d0-d4e2-4bce-a437-80f1604f3bf3</webElementGuid>
+      <webElementGuid>bf076c4a-07ba-4773-8bdd-cc51436f1bfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>18022:0</value>
-      <webElementGuid>da5350a5-7ed6-4232-93d8-81e024dd921a</webElementGuid>
+      <webElementGuid>a49fc988-d32d-4278-a042-4846139f0584</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +50,15 @@
       <name>data-aura-class</name>
       <type>Main</type>
       <value>forceActionsText</value>
-      <webElementGuid>2c3c81bc-7837-4c9f-a3f3-cd3782d0095b</webElementGuid>
+      <webElementGuid>9e3c900e-3d2a-4325-8f1d-6766afd7d79e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>ends with</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Case &quot;00001063&quot; was saved.</value>
-      <webElementGuid>06e2c37b-1280-4024-a668-234012855e36</webElementGuid>
+      <value>Case ([0-9]+) was saved.</value>
+      <webElementGuid>dbcfbd16-9893-43a3-bf28-b8066f9aba0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;toastDescription18009:0&quot;)/span[@class=&quot;toastMessage slds-text-heading--small forceActionsText&quot;]</value>
-      <webElementGuid>78392c5d-b723-4316-a9f7-1f5dd8f88187</webElementGuid>
+      <webElementGuid>8ac04e85-93fb-42ff-817a-bd67ad20d3a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='success'])[1]/following::span[1]</value>
-      <webElementGuid>fa1e352e-f063-4a34-954c-dd73c2b1d0aa</webElementGuid>
+      <webElementGuid>f74ad165-1107-4d8b-92f8-4a85431b05a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[4]/following::span[3]</value>
-      <webElementGuid>27ca7e50-caf4-42a7-8208-659a815a43ef</webElementGuid>
+      <webElementGuid>2c15ec43-f572-401d-8dc1-c0090379f6ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::span[1]</value>
-      <webElementGuid>c8bd86b8-7852-43ab-9765-984941ef07fb</webElementGuid>
+      <webElementGuid>ab3cf512-ee58-4683-bbab-af2512652a83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@class = 'toastMessage slds-text-heading--small forceActionsText' and (text() = 'Case &quot;00001063&quot; was saved.' or . = 'Case &quot;00001063&quot; was saved.')]</value>
-      <webElementGuid>0f1795e4-a6c8-4a8e-94f6-206af0743229</webElementGuid>
+      <webElementGuid>246fee2a-c03b-47fd-8f65-0cf4c6ba3b8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='toastDescription18009:0']/span</value>
-      <webElementGuid>d06e092c-c53f-4dc1-a33d-f4024f9947e3</webElementGuid>
+      <webElementGuid>763fa6bb-0da2-4775-a98e-e3baa9bc11a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/div/div/div/div/span</value>
-      <webElementGuid>46f76078-80bd-426c-9765-8c025e6107c2</webElementGuid>
+      <webElementGuid>e83766dd-bfab-445f-a666-c8d8b7ac85e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

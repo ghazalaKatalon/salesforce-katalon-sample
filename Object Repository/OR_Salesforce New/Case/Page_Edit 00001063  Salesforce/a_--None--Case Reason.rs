@@ -6,12 +6,12 @@
    <elementGuidId>36fc71c8-7efb-472f-95d8-49ee82516e9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span/span[text()='Case Reason']/following::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[text()='Case Reason'])//following-sibling::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>da5e1b6f-fc36-4bd6-8810-b4f6b317bd21</webElementGuid>
+      <webElementGuid>3e630d72-4a53-46f3-8c30-25e565168cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cd45da77-a913-41b0-9ab5-b214b213ad77</webElementGuid>
+      <webElementGuid>3a34c69d-5898-453c-8392-2878ee139e8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c1b0750c-40cb-4d5e-aa88-a421f1b2f77f</webElementGuid>
+      <webElementGuid>b193b3c6-ed3f-41e6-a38f-72dc02e2b14f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>17171:0-label</value>
-      <webElementGuid>eaceb14a-c41d-4c99-91fb-87ad36b184ed</webElementGuid>
+      <webElementGuid>7610ef7c-1904-4b64-9b41-df5e9370c9fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>6447b68e-854d-4a4e-a613-df2d08e07236</webElementGuid>
+      <webElementGuid>bc71355c-3e73-44e1-afb6-8b12d31ff697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d182a511-2518-4d15-a963-638c124c3ace</webElementGuid>
+      <webElementGuid>6c6b80b6-0275-4cc6-a21a-df36872b7e3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>27b7cdc3-6342-493f-997c-fedbe5aa1eb8</webElementGuid>
+      <webElementGuid>998444c9-53d3-4901-845a-b66b6ea81b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>8f8ee588-295a-4bcf-be5b-b89e2816f19a</webElementGuid>
+      <webElementGuid>7039d320-da86-48ed-ae4e-d7ead9fde09c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>17181:0</value>
-      <webElementGuid>ff966dd9-25ab-4d5e-9b44-c1417667056d</webElementGuid>
+      <webElementGuid>bf60b942-ef53-46b3-8206-fc153fef83d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
-      <webElementGuid>96de9a9e-7f36-4d3d-90fd-e3ab0caf9a68</webElementGuid>
+      <webElementGuid>29893bb7-a886-407b-bba4-41176b7f187c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>data-interactive-lib-uid</name>
       <type>Main</type>
       <value>211</value>
-      <webElementGuid>805c87aa-4ac4-4f5c-af17-b12ebb6949ac</webElementGuid>
+      <webElementGuid>f716f393-3e3d-4e6c-a073-8932a208965a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>text</name>
       <type>Main</type>
       <value>--None--</value>
-      <webElementGuid>553f8d36-c123-446a-8dd0-8901ef426a53</webElementGuid>
+      <webElementGuid>afcb6633-a377-4086-bf72-a22939c47d21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;17178:0&quot;)/div[1]/div[1]/a[@class=&quot;select&quot;]</value>
-      <webElementGuid>e45d97d9-faf6-4a1c-82ba-0e09a9069ca4</webElementGuid>
+      <webElementGuid>91f37e13-39bb-47c7-9378-e3074e6602a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[2]/following::a[1]</value>
-      <webElementGuid>cbbf98be-ec38-4698-b412-ac759ff00bde</webElementGuid>
+      <webElementGuid>077a3fd6-c554-4c9f-ba76-79d24aab1d91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Escalated'])[1]/following::a[1]</value>
-      <webElementGuid>8d58a4dd-950e-444c-92fe-94df2d8a84fb</webElementGuid>
+      <webElementGuid>709d2b03-13d6-4c6c-aed5-1e8482c417a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Case Origin'])[2]/preceding::a[1]</value>
-      <webElementGuid>ed11b9e0-c9cb-45b0-a3e5-26530d32f025</webElementGuid>
+      <webElementGuid>b1985f0a-e936-4a5b-b2ce-01a809d3d13f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::a[1]</value>
-      <webElementGuid>ed072a0c-282b-4372-baa2-1b950288041a</webElementGuid>
+      <webElementGuid>ec770e0e-7f23-4f3d-9a02-bb92477ef7bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@role = 'button' and @class = 'select' and @href = 'javascript:void(0);' and (text() = '--None--' or . = '--None--')]</value>
-      <webElementGuid>4b1e91fd-4922-40f9-8ebf-96b8551fc861</webElementGuid>
+      <webElementGuid>7a777d62-6dcd-4ee2-a304-f061fd3f62e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='17178:0']/div/div/a</value>
-      <webElementGuid>b2f30c6d-4d69-475a-a161-b50d2315838e</webElementGuid>
+      <webElementGuid>640dd131-8536-41b7-b522-76322a2c0070</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +174,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'--None--')]</value>
-      <webElementGuid>2132a07e-d8b8-4260-a583-ce3a3549e7a1</webElementGuid>
+      <webElementGuid>f1be98f7-bca3-4d68-a57e-101c2074f1ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,7 +182,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0);')])[36]</value>
-      <webElementGuid>7af32c4f-b252-4fa1-b617-37a2a92ba219</webElementGuid>
+      <webElementGuid>dd82e0eb-3572-453a-a799-5f66c6b8d725</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -190,6 +190,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/div/div/a</value>
-      <webElementGuid>8e7c4573-e7f7-4c98-a5eb-bc465845f04e</webElementGuid>
+      <webElementGuid>f2e4c766-1942-4fed-a093-42674c0ec985</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

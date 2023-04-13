@@ -25,7 +25,7 @@ WebUI.navigateToUrl(GlobalVariable.APP_URL)
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Username_username'), GlobalVariable.USERNAME)
 
-WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw'), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_pw'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Login  Salesforce/input_Password_Login'))
 

@@ -11,7 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='--None--'])[5]/following::a[1]</value>
+         <value>//lightning-base-combobox-item//span[@title='Email']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0);' and @role = 'menuitemradio' and @title = 'Email' and (text() = 'Email' or . = 'Email')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ca28c0c7-9bfc-40b1-aa21-fd44b498ded9</webElementGuid>
+      <webElementGuid>a68b984b-5840-4eab-94a6-52bba6efba6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>12822:0</value>
-      <webElementGuid>9cbcda04-90e4-46ed-ba04-5556a4b9abcf</webElementGuid>
+      <webElementGuid>8445c0d5-1d08-4752-ab12-91584ea8b471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
-      <webElementGuid>3ca0deb5-14b8-4de6-993c-3e0eda385fed</webElementGuid>
+      <webElementGuid>49331f33-08ed-4499-9db8-fbfddb6b1c6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitemradio</value>
-      <webElementGuid>ae315370-0a28-4098-b3a5-17cbe5f5d2e4</webElementGuid>
+      <webElementGuid>de3ac4f9-ae45-4af9-a969-61fd744f180f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6afa2fe1-bada-4608-9513-1a91169a0758</webElementGuid>
+      <webElementGuid>1a266c54-d1ae-4a35-a2af-99a4a3a6d67a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8d574c89-cb5f-4696-b896-16ee5c0f2149</webElementGuid>
+      <webElementGuid>c71db6f0-4f79-4b9b-9756-e97907ec643a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Email</value>
-      <webElementGuid>3fa1a1ab-e046-4601-9e90-98457d9f3180</webElementGuid>
+      <webElementGuid>f7180814-809e-4278-8ca6-2a8602be3497</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>257d7e69-8726-41da-afc0-0a899c23b70a</webElementGuid>
+      <webElementGuid>6ee7596c-06aa-4067-bc59-c35c33454625</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +90,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email</value>
-      <webElementGuid>331f0a35-8e84-4a9a-a98e-b1009a88b944</webElementGuid>
+      <webElementGuid>fec425df-a12e-472d-bf84-02e6926bba53</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;12241:0&quot;)/div[@class=&quot;select-options&quot;]/ul[@class=&quot;scrollable&quot;]/li[@class=&quot;uiMenuItem uiRadioMenuItem&quot;]/a[1]</value>
-      <webElementGuid>565972af-1198-4dcb-974a-11a02a98e43c</webElementGuid>
+      <webElementGuid>34c12bdc-d0e4-46f7-ad51-8647db41f6e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='--None--'])[5]/following::a[1]</value>
-      <webElementGuid>98ba0966-9725-4100-9484-fdccddfe3501</webElementGuid>
+      <webElementGuid>c019ce67-ed3b-4c3f-990c-04239792d8bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[5]/following::a[2]</value>
-      <webElementGuid>ac418bf1-cb5d-4ded-a0c3-8da1c81ba5a7</webElementGuid>
+      <webElementGuid>bf88fb60-606a-41e1-8d56-8fa7afd85e34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::a[1]</value>
-      <webElementGuid>0a0c3a6a-12c8-46d9-a93e-ff84641af066</webElementGuid>
+      <webElementGuid>b9c606a7-25e9-419c-a046-a390084adf61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Web'])[1]/preceding::a[2]</value>
-      <webElementGuid>4f04d7f5-4930-4bfd-ab3f-854260e24912</webElementGuid>
+      <webElementGuid>58105846-ab46-4696-919f-f427c6b8efea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +138,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Email']/parent::*</value>
-      <webElementGuid>bc82bd99-e5d3-43b4-8821-b88b8baa9d44</webElementGuid>
+      <webElementGuid>f3e412b1-422c-4803-af1e-1b851d44dc21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +146,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0);' and @role = 'menuitemradio' and @title = 'Email' and (text() = 'Email' or . = 'Email')]</value>
-      <webElementGuid>78247b2b-6c0c-4398-a204-047c9591f6e3</webElementGuid>
+      <webElementGuid>5216e481-74d9-438e-8a53-4f6a14cb213a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +154,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='12241:0']/div/ul/li[2]/a</value>
-      <webElementGuid>ca8e942e-ef3f-496b-aa5d-c10b899b053a</webElementGuid>
+      <webElementGuid>aeb7d63f-8d3b-4b49-a872-cf5f02b7bd32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +162,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Email')]</value>
-      <webElementGuid>13e41628-6ffd-4635-b51a-f5c465c58c63</webElementGuid>
+      <webElementGuid>f880a7a7-44f9-433b-ae25-11b727d150ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +170,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0);')])[29]</value>
-      <webElementGuid>a89a71d7-dc3d-46d6-8614-b40b581c8c6d</webElementGuid>
+      <webElementGuid>87b27172-e210-4cf3-8f30-d312072c99d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +178,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/ul/li[2]/a</value>
-      <webElementGuid>b863d217-d616-4909-9b56-87ec0a1e1fcc</webElementGuid>
+      <webElementGuid>1c1e3483-a1d6-4fca-bd76-28ea618fa1bd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

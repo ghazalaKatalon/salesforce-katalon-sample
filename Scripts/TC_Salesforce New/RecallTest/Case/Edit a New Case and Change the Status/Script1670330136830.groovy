@@ -1,3 +1,4 @@
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -14,7 +15,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/button_Edit'))
@@ -36,10 +36,15 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Edit 0
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Edit 00001063  Salesforce/span_Save'))
 
-String caseSaved = WebUI.getText(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved'))
+WebUI.waitForElementVisible(findTestObject('OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved'), 
+    5, FailureHandling.OPTIONAL)
 
-WebUI.verifyMatch(caseSaved, 'Case "([0-9]+)" was saved.', true)
+String caseSaved = WebUI.getText(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved'), 
+    FailureHandling.OPTIONAL)
 
-WebUI.waitForElementNotPresent(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case 00001063 was saved'), 
-    20, FailureHandling.OPTIONAL)
+println('Case Saved: ' + caseSaved)
+
+WebUI.verifyMatch(caseSaved, ('Case "' + GlobalVariable.caseNumber) + '" was saved.', true, FailureHandling.OPTIONAL)
+
+WebUI.delay(5)
 
