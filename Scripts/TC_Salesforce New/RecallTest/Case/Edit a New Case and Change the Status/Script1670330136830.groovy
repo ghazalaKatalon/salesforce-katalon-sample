@@ -44,7 +44,7 @@ String caseSaved = WebUI.getText(findTestObject('Object Repository/OR_Salesforce
 
 println('Case Saved: ' + caseSaved)
 
-WebUI.verifyMatch(caseSaved, ('Case "' + GlobalVariable.caseNumber) + '" was saved.', true, FailureHandling.OPTIONAL)
+WebUI.verifyMatch(caseSaved, ('Case "' + GlobalVariable.CASENUMBER) + '" was saved.', true, FailureHandling.OPTIONAL)
 
 WebUI.delay(5)
 

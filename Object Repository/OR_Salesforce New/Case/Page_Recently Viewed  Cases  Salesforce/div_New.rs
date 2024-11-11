@@ -10,11 +10,22 @@
          <value>div[title=&quot;New&quot;]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'New' and (text() = 'New' or . = 'New')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='This list is pinned'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>870ed1f2-1502-4ee7-930a-7084495f2100</webElementGuid>
+      <webElementGuid>dbc6b1a4-dc32-41a2-903e-fd319ace0eaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +41,7 @@
       <name>title</name>
       <type>Main</type>
       <value>New</value>
-      <webElementGuid>1f72bf23-e122-43a4-83d2-8c3740d4c163</webElementGuid>
+      <webElementGuid>54a80b39-ba4c-42dc-9017-9a39683be4b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +49,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>11581:0</value>
-      <webElementGuid>195f436c-c857-412d-8504-5a046c482cc0</webElementGuid>
+      <webElementGuid>7c889076-2622-4c99-949d-778393c681eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New</value>
-      <webElementGuid>828224bf-297d-4873-9759-c46960d1a67a</webElementGuid>
+      <webElementGuid>783a651f-a2e2-4a59-b9f9-167b33db293d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;brandBand_1&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;windowViewMode-maximized oneContent active lafPageHost&quot;]/div[@class=&quot;oneConsoleObjectHome&quot;]/div[@class=&quot;empty  test-listViewManager slds-card slds-card_boundary slds-grid slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-page-header--object-home slds-page-header_joined slds-page-header_bleed slds-page-header slds-shrink-none test-headerRegion forceListViewManagerHeader&quot;]/div[@class=&quot;slds-grid&quot;]/div[@class=&quot;slds-col slds-no-flex slds-grid slds-align-top slds-p-bottom--xx-small test-lvmForceActionsContainer&quot;]/ul[@class=&quot;branding-actions slds-button-group slds-m-left--xx-small oneActionsRibbon forceActionsContainer&quot;]/li[@class=&quot;slds-button slds-button--neutral&quot;]/a[@class=&quot;forceActionLink&quot;]/div[1]</value>
-      <webElementGuid>91c87393-df55-42f3-bae7-08f953cbbe13</webElementGuid>
+      <webElementGuid>585bec73-edc7-4c09-992f-fbccd3037a0e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='This list is pinned'])[1]/following::div[2]</value>
-      <webElementGuid>d43d1fec-c1d0-4346-968c-047748609ea7</webElementGuid>
+      <webElementGuid>8b58998c-594f-4da1-a260-ab4050155b7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a List View'])[1]/following::div[5]</value>
-      <webElementGuid>2cd5668f-3e62-426d-a8ca-db607350c2da</webElementGuid>
+      <webElementGuid>b41cb0d2-1696-49df-aa11-e7a876eee8cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Owner'])[1]/preceding::div[1]</value>
-      <webElementGuid>10fc5849-9195-4c7d-bb4d-f10674692eb1</webElementGuid>
+      <webElementGuid>dbfafcd1-18da-460f-8434-1fc3cee01d51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated a few seconds ago'])[1]/preceding::div[2]</value>
-      <webElementGuid>8928edb8-eaa7-42bb-82dc-d8cb79d7820e</webElementGuid>
+      <webElementGuid>17bf82c0-1402-45e0-8765-6c4d0a88fe89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New']/parent::*</value>
-      <webElementGuid>b94e575b-a4b6-42e5-b4b4-71fdea8fd3b0</webElementGuid>
+      <webElementGuid>1454cdc2-cfe3-45e5-8f0e-5f3d8984cbaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +113,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@title = 'New' and (text() = 'New' or . = 'New')]</value>
-      <webElementGuid>eaa55371-7fbe-485a-bf42-d8732f9974f7</webElementGuid>
+      <webElementGuid>f6c98d66-79f9-40ea-88c2-37c7aa69a683</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +121,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='brandBand_1']/div/div/div/div/div/div/div[2]/ul/li/a/div</value>
-      <webElementGuid>1fdd687f-7d98-4f20-8222-8cc116b16250</webElementGuid>
+      <webElementGuid>c827b435-bada-422f-80ab-8cc8d1875281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +129,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a/div</value>
-      <webElementGuid>430afe60-28fd-49e4-95a3-84849fd90f26</webElementGuid>
+      <webElementGuid>2b2ba958-fafc-4ebe-a616-a78a4e1ba35a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

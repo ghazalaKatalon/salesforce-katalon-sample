@@ -4,5 +4,6 @@
    <name>Case Management</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>be1f3df7-fab1-402e-aeef-f0ded5e934dd</testCaseGuid>
 </TestCaseEntity>

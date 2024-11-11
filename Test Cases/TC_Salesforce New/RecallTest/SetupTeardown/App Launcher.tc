@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>App Launcher</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe181f7a-8b83-4bee-969e-96d51506671a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c310439-5d88-4224-b4e1-70af4ad353a6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4c310439-5d88-4224-b4e1-70af4ad353a6</id>
+      <masked>false</masked>
+      <name>appName</name>
+   </variable>
+</TestCaseEntity>

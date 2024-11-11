@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Vi
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_Change Owner'))
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/input_Pick an object_92023a'), 
-    'Srivatsa ')
+    'Gokul Sridharan')
 
 WebUI.delay(4)
 

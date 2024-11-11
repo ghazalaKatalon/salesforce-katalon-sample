@@ -4,5 +4,6 @@
    <name>Account Management</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>ba8caab2-d3ba-44b6-96a4-f03943bcc762</testCaseGuid>
 </TestCaseEntity>

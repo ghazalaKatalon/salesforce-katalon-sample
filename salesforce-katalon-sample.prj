@@ -4,7 +4,11 @@
    <name>salesforce-katalon-sample</name>
    <tag></tag>
    <UUID>1bc6161e-a466-4a06-9a42-b3e8e92c6363</UUID>
+   <createdVersion>9.3.1</createdVersion>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>/Users/mohit/git/salesforce-katalon-sample/salesforce-katalon-sample.prj</projectFileLocation>
    <sourceContent>

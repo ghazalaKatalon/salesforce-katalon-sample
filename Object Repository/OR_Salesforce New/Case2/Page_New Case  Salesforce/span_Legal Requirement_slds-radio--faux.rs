@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Legal Requirement_slds-radio--faux</name>
+   <tag></tag>
+   <elementGuidId>31b2d7af-a434-42e5-91ad-cafce6e91ab1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(5) > label.slds-radio > div.changeRecordTypeOptionLeftColumn > span.slds-radio--faux</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content_1420:0']/div/div/div/div/div/div/fieldset/div/div[5]/label/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;content_1420:0&quot;)/div[@class=&quot;windowViewMode-normal oneRecordActionWrapper isModal active lafPageHost&quot;]/div[@class=&quot;isModal inlinePanel oneRecordActionWrapper&quot;]/div[@class=&quot;actionBody&quot;]/div[@class=&quot;forceChangeRecordType&quot;]/div[@class=&quot;modal__content changeRecordTypeLeftRightContent&quot;]/div[@class=&quot;changeRecordTypeRow&quot;]/fieldset[@class=&quot;slds-form-element slds-no-space&quot;]/div[@class=&quot;changeRecordTypeRightColumn slds-form-element__control&quot;]/div[5]/label[@class=&quot;slds-radio&quot;]/div[@class=&quot;changeRecordTypeOptionLeftColumn&quot;]/span[@class=&quot;slds-radio--faux&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8d80f3ff-bbe7-4ddf-af3d-e344cb0ee883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-radio--faux</value>
+      <webElementGuid>df93d553-5cb2-4993-80b3-faa1dc274f79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>117:1559;a</value>
+      <webElementGuid>152fd33c-4343-4e18-bb12-160e36fbf454</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content_1420:0&quot;)/div[@class=&quot;windowViewMode-normal oneRecordActionWrapper isModal active lafPageHost&quot;]/div[@class=&quot;isModal inlinePanel oneRecordActionWrapper&quot;]/div[@class=&quot;actionBody&quot;]/div[@class=&quot;forceChangeRecordType&quot;]/div[@class=&quot;modal__content changeRecordTypeLeftRightContent&quot;]/div[@class=&quot;changeRecordTypeRow&quot;]/fieldset[@class=&quot;slds-form-element slds-no-space&quot;]/div[@class=&quot;changeRecordTypeRightColumn slds-form-element__control&quot;]/div[5]/label[@class=&quot;slds-radio&quot;]/div[@class=&quot;changeRecordTypeOptionLeftColumn&quot;]/span[@class=&quot;slds-radio--faux&quot;]</value>
+      <webElementGuid>573f2b49-978e-4341-aeb1-bc1a190fa2ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content_1420:0']/div/div/div/div/div/div/fieldset/div/div[5]/label/div/span</value>
+      <webElementGuid>166e3bca-eb9d-43a5-9008-0f5fe268e38a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/label/div/span</value>
+      <webElementGuid>63e8e61a-88ce-4bbb-9c8b-9e540d1a683c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

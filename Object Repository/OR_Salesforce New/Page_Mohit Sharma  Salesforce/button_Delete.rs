@@ -6,19 +6,20 @@
    <elementGuidId>b271e91c-0852-444f-bcb0-7cf2b65c5f1b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'slds-button slds-button_neutral' and @name = 'Delete' and @type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::button[1]</value>
+         <value>.//*[@data-target-selection-name='sfdc:StandardButton.Lead.Delete']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button[name=&quot;Delete&quot;]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'slds-button slds-button_neutral' and @name = 'Delete' and @type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>54ff03e7-6d3c-4980-a75f-2c8ae0068de2</webElementGuid>
+      <webElementGuid>7d15d46b-ba8a-49cb-b803-0fda44de00cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slds-button slds-button_neutral</value>
-      <webElementGuid>14f7ecb8-d167-4a44-a7f2-6949b6c01855</webElementGuid>
+      <webElementGuid>6786ec2c-ac71-4fe0-9a40-89cfa26fedb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>268ef898-a97c-4ab1-b021-dc0854b426aa</webElementGuid>
+      <webElementGuid>7d409c6d-c89a-404f-bd21-d90e730bb19c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +51,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0eef637b-4a2c-4b08-a51b-abe35e8166bf</webElementGuid>
+      <webElementGuid>2281f593-47b0-40b3-b4ec-973b92c57af0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>61520884-0892-4b6a-ae16-7c5948b0bb95</webElementGuid>
+      <webElementGuid>eacdc78e-551d-4bb8-b433-363179fec295</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/div[@class=&quot;oneRecordHomeFlexipage2Wrapper&quot;]/one-record-home-flexipage2[1]/forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-new_-katalon_-lead_-page___-lead___-v-i-e-w[@class=&quot;adg-rollup-wrapped&quot;]/forcegenerated-flexipage_new_katalon_lead_page_lead__view_js[@class=&quot;forcegenerated-flexipage-module&quot;]/record_flexipage-record-page-decorator[1]/div[@class=&quot;record-page-decorator&quot;]/records-record-layout-event-broker[1]/slot[1]/slot[1]/flexipage-record-home-template-desktop2[@class=&quot;forcegenerated-flexipage-template&quot;]/div[@class=&quot;slds-grid slds-wrap&quot;]/div[@class=&quot;slds-col slds-size_1-of-1 row region-header&quot;]/slot[1]/flexipage-component2[1]/slot[1]/records-lwc-highlights-panel[1]/records-lwc-record-layout[1]/forcegenerated-highlightspanel_lead___012000000000000aaa___compact___view___recordlayout2[@class=&quot;forcegenerated-record-layout2&quot;]/records-highlights2[1]/div[@class=&quot;highlights slds-clearfix slds-page-header slds-page-header_record-home fixed-position&quot;]/div[@class=&quot;slds-grid primaryFieldRow&quot;]/div[@class=&quot;slds-col slds-no-flex slds-grid slds-grid_vertical-align-center horizontal actionsContainer&quot;]/div[1]/runtime_platform_actions-actions-ribbon[1]/ul[@class=&quot;slds-button-group-list&quot;]/li[@class=&quot;visible&quot;]/runtime_platform_actions-action-renderer[1]/runtime_platform_actions-executor-aura-legacy[1]/slot[1]/slot[1]/lightning-button[1]/button[@class=&quot;slds-button slds-button_neutral&quot;]</value>
-      <webElementGuid>ae32fb60-9f5a-4c88-a4e1-c804dfcc8662</webElementGuid>
+      <webElementGuid>7f9c0cf6-a094-4815-b560-0f873ed21f63</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::button[1]</value>
-      <webElementGuid>a17bc61d-1cf2-4690-a882-3ccf8cc6ffdb</webElementGuid>
+      <webElementGuid>cc839750-c95d-4b0d-b49f-613516f90dd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Follow'])[1]/following::button[2]</value>
-      <webElementGuid>87e0ff43-2eeb-4c56-8eeb-130b484bdb06</webElementGuid>
+      <webElementGuid>ffb65a2a-9135-4139-806d-eee7bb364a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clone'])[1]/preceding::button[1]</value>
-      <webElementGuid>7a126e25-9794-430e-b558-c01b3fea1fb7</webElementGuid>
+      <webElementGuid>590391d0-3550-42c4-8de9-7edc02599189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show more actions'])[1]/preceding::button[2]</value>
-      <webElementGuid>7b01eba1-cd30-49b3-999c-419388c821bb</webElementGuid>
+      <webElementGuid>147c08a1-10fb-47cc-bf1d-735380b32c8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
-      <webElementGuid>97e7a65d-d93a-459e-ac06-c80349d131f0</webElementGuid>
+      <webElementGuid>74060e41-58e1-4554-8c69-5891d327df03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +115,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@name='Delete']</value>
-      <webElementGuid>0d06c4b6-800c-4d6a-9861-ef8295d5178c</webElementGuid>
+      <webElementGuid>66418ce0-e342-4bf4-8b20-9235b0f1843c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +123,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='brandBand_2']/div/div/div[2]/div/one-record-home-flexipage2/forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-new_-katalon_-lead_-page___-lead___-v-i-e-w/forcegenerated-flexipage_new_katalon_lead_page_lead__view_js/record_flexipage-record-page-decorator/div/records-record-layout-event-broker/slot/slot/flexipage-record-home-template-desktop2/div/div/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/forcegenerated-highlightspanel_lead___012000000000000aaa___compact___view___recordlayout2/records-highlights2/div/div/div[3]/div/runtime_platform_actions-actions-ribbon/ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-aura-legacy/slot/slot/lightning-button/button</value>
-      <webElementGuid>d7d218d8-e217-43db-80b1-0002c97d44e4</webElementGuid>
+      <webElementGuid>16acdd59-2fc7-485e-b719-4ecce12e576f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//runtime_platform_actions-executor-aura-legacy/slot/slot/lightning-button/button</value>
-      <webElementGuid>ce13f7f5-cab5-4731-bce0-bc1db3d9af83</webElementGuid>
+      <webElementGuid>0786590e-558c-419d-b425-79ac374cb06f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@class = 'slds-button slds-button_neutral' and @name = 'Delete' and @type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>ed99e0d7-55ad-4f8b-ac1b-e25c9f0c1352</webElementGuid>
+      <webElementGuid>fd0ae161-8bc8-49ee-9e53-2b8c68f43fc5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

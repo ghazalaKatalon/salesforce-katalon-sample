@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_Salesforce New/RecallTest/Lead/Create a Lead</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e56fb0f1-4aed-42bc-b044-0efb60d09827</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4b243a6a-0b15-4b9f-a64d-902265100f0e</guid>

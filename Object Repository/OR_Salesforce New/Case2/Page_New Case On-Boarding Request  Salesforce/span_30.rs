@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_30</name>
+   <tag></tag>
+   <elementGuidId>e0c9dfb8-154f-4203-8a10-cca1c7664944</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(5) > td:nth-of-type(4) > span.slds-day</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '30' or . = '30')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5eb3f19f-9b35-408a-b6a2-ac00bf270540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-day</value>
+      <webElementGuid>8ddc16f8-37e3-4ee3-8c52-44d458abb463</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>2805aeee-44ad-4c2d-a46d-e9b246479896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>23546310-9f98-48ef-983a-54faa0d6006e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>30</value>
+      <webElementGuid>951ea649-cce4-497a-81a0-c852e28d3d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sectionContent-395&quot;)/div[@class=&quot;slds-form&quot;]/slot[1]/records-record-layout-row[@class=&quot;slds-form__row&quot;]/slot[@class=&quot;slds-grid slds-size_1-of-1&quot;]/records-record-layout-item[@class=&quot;slds-form__item slds-no-space&quot;]/div[@class=&quot;slds-grid slds-size_1-of-1 label-inline&quot;]/span[@class=&quot;test-id__field-value slds-size_1-of-1&quot;]/slot[1]/records-record-layout-input-date-time[1]/lightning-input[@class=&quot;slds-form-element slds-form-element_horizontal&quot;]/lightning-datetimepicker[1]/div[@class=&quot;slds-form&quot;]/fieldset[@class=&quot;slds-form-element slds-form-element_compound&quot;]/div[@class=&quot;slds-form-element__control&quot;]/div[@class=&quot;slds-form-element__group&quot;]/div[@class=&quot;slds-form-element__row&quot;]/lightning-datepicker[@class=&quot;slds-form-element&quot;]/div[@class=&quot;slds-dropdown-trigger slds-dropdown-trigger_click slds-size_1-of-1 slds-is-open&quot;]/div[@class=&quot;slds-form-element__control slds-input-has-icon slds-input-has-icon_right&quot;]/lightning-calendar[1]/div[@class=&quot;slds-datepicker slds-dropdown slds-dropdown_left&quot;]/lightning-focus-trap[1]/slot[1]/table[@class=&quot;slds-datepicker__month&quot;]/tbody[1]/tr[5]/td[4]/span[@class=&quot;slds-day&quot;]</value>
+      <webElementGuid>97f142ee-5db3-40dd-8853-9eeb907bb349</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '30' or . = '30')]</value>
+      <webElementGuid>894617ea-c00f-46f5-85ca-a7db50f8063e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[32]</value>
+      <webElementGuid>39d3c5eb-3f32-46e5-8566-eab900983652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[32]</value>
+      <webElementGuid>09e9202c-6aae-469b-a923-dd51923fd197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::span[11]</value>
+      <webElementGuid>649e534b-b5b5-4030-a837-5d5f51d17d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sectionContent-395']/div/slot/records-record-layout-row[2]/slot/records-record-layout-item/div/span/slot/records-record-layout-input-date-time/lightning-input/lightning-datetimepicker/div/fieldset/div/div/div/lightning-datepicker/div/div/lightning-calendar/div/lightning-focus-trap/slot/table/tbody/tr[5]/td[4]/span</value>
+      <webElementGuid>44a11f30-c723-48fd-8e9b-0d2982b06054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[4]/span</value>
+      <webElementGuid>8e879311-8723-459f-b5f3-e85060a7c5a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

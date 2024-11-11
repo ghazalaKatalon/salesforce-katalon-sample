@@ -19,7 +19,8 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+import net.sf.jasperreports.data.DataFile as GlobalVariable
 
 WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/SetupTeardown/Login into Salesforce'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -47,7 +48,8 @@ items2 = CustomKeywords.'webKeywords.ApplicationFunction.enhanced_GetAllValuesDr
 
 println('GUI Values: ' + items2)
 
-println('Excel Value: ' + LeadStatus)
+
+println('Excel Value: ' + findTestData("Data Files/New Test Data").getValue(LeadStaus, 1))
 
 WebUI.verifyEqual(LeadStatus, items2)
 

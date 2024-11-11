@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_AppName</name>
+   <tag></tag>
+   <elementGuidId>4434e248-333d-4194-823c-1e0745bb73d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.slds-truncate > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//b[(text() = '${appName}' or . = '${appName}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>360cc5f1-daaf-4e22-a65e-d65a657f27fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cases</value>
+      <webElementGuid>35c67fbd-bfcd-4255-8528-e67072c37916</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Case&quot;)/div[@class=&quot;slds-size_small&quot;]/lightning-formatted-rich-text[@class=&quot;al-menu-item-label slds-truncate slds-rich-text-editor__output&quot;]/span[1]/p[@class=&quot;slds-truncate&quot;]/b[1]</value>
+      <webElementGuid>3e04df9d-ba25-42da-b01e-ddb59cc34ca4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'Cases' or . = 'Cases')]</value>
+      <webElementGuid>ad837e3d-539d-463d-9380-b2e8b0896921</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items'])[1]/following::b[1]</value>
+      <webElementGuid>b5caebcf-9e23-4e37-85ab-0694653ec30a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/following::b[1]</value>
+      <webElementGuid>c4b3ab16-0064-42b1-b3af-12c509b65bdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[3]/preceding::b[1]</value>
+      <webElementGuid>f3605159-8a40-44ac-b7c8-bb3453a76f8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[4]/preceding::b[1]</value>
+      <webElementGuid>7c23c67a-63fb-4e62-9593-5fad056246e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='Case']/div/lightning-formatted-rich-text/span/p/b</value>
+      <webElementGuid>7643454a-4848-4d1f-b53f-d1294815528a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/b</value>
+      <webElementGuid>d61ab293-9656-495c-9640-9b4535db24f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

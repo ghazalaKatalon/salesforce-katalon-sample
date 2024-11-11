@@ -4,5 +4,6 @@
    <name>Lead Management</name>
    <tag>usecase</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>186bf60c-a5bd-40d3-b96f-a2056e0c7da7</testCaseGuid>
 </TestCaseEntity>

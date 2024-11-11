@@ -1,0 +1,53 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Lead/Page_New Lead  Salesforce/button_--None--Lead Source",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and @aria-label \u003d \u0027Lead Source - Current Selection: --None--\u0027 and (text() \u003d \u0027--None--\u0027 or . \u003d \u0027--None--\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Lead/Page_New Lead  Salesforce/span_Business Email",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027--None--\u0027])[9]/following::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OR_Salesforce New/Lead/Page_New Lead  Salesforce/span_Business Email_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Status was updated for 1 lead",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027success\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[4]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Lead Mohit Sharma was deleted. Undo",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027success\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[3]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img_Mohit Kuma_icon",
+      "brokenLocator": ".//div[contains(@title, \u0027Bhagyesh Nanwani\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//img[@alt\u003d\u0027User\u0027])[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

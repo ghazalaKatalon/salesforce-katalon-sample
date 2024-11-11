@@ -4,5 +4,6 @@
    <name>Create a Filter</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2d6b1107-cc96-43b4-9027-b4dbe4da4b43</testCaseGuid>
 </TestCaseEntity>

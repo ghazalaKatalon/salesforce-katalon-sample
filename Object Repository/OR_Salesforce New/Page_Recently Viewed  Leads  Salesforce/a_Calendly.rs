@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Calendly')]</value>
+         <value>//a[contains(text(),'Qualified')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>57d0a324-27a3-4dbc-a234-4f41715be207</webElementGuid>
+      <webElementGuid>5deb836f-9521-4e58-a6ef-f0c81e06f8b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>2939:0</value>
-      <webElementGuid>0876d258-ae49-4997-80d8-6b4b7e8a7f40</webElementGuid>
+      <webElementGuid>ddb4cc00-da8b-47a9-9e7c-33d6c2ec042a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0);</value>
-      <webElementGuid>85982302-9b70-4c2d-82eb-fd75c39276d2</webElementGuid>
+      <webElementGuid>640a2e77-69b8-4845-9eaf-e3d03d56c8a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitemradio</value>
-      <webElementGuid>63d0a8a9-eb03-4fb5-883e-8fce5ef0d8f5</webElementGuid>
+      <webElementGuid>7fa29c94-78f2-4bfc-b1e9-e996feaa996e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>c9b2a2ea-b1c7-4332-a42b-ec923c476c1e</webElementGuid>
+      <webElementGuid>a8fdcf75-48d9-4e47-a0eb-7f8e0e708418</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>0021b191-74b7-461d-bcfe-6056435cd558</webElementGuid>
+      <webElementGuid>6c337478-9799-462b-a567-f5c421da027a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +71,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Calendly</value>
-      <webElementGuid>9a893e27-aaf8-481d-9921-e1ad6e880a8e</webElementGuid>
+      <webElementGuid>ee261bc3-0361-4238-b042-1c7f443a6e6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>aria-checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>86c0ce8e-e09b-484b-b34f-fe645fc56eb1</webElementGuid>
+      <webElementGuid>17727918-9167-4169-b0ad-917132cad998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +87,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Calendly</value>
-      <webElementGuid>17df1f84-2ba7-4b9e-8a6f-202aec95dc1c</webElementGuid>
+      <webElementGuid>33fec166-b476-4f80-92db-09d56e3a03e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;2857:0&quot;)/div[@class=&quot;select-options&quot;]/ul[@class=&quot;scrollable&quot;]/li[@class=&quot;uiMenuItem uiRadioMenuItem&quot;]/a[1]</value>
-      <webElementGuid>9f907113-b7b9-4373-af38-648504aba260</webElementGuid>
+      <webElementGuid>1f223a09-cfa4-4c0f-951a-590d95198aed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[3]/following::a[1]</value>
-      <webElementGuid>8a860cd5-2218-4115-90d2-2f5bd6d32994</webElementGuid>
+      <webElementGuid>f91c8899-9968-4046-bdd9-617c28f36527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='To unpin, pin another list view'])[2]/following::a[2]</value>
-      <webElementGuid>12798683-9757-4aba-a590-eef8159e8eda</webElementGuid>
+      <webElementGuid>77d49d01-9bc4-44f4-96ab-e6d5dc5b0251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Working'])[2]/preceding::a[1]</value>
-      <webElementGuid>7b91915a-4ad9-459b-8754-c7fb2d858de6</webElementGuid>
+      <webElementGuid>b8b128dc-2cb1-42e8-b879-18d57c4d6c14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nurturing'])[1]/preceding::a[2]</value>
-      <webElementGuid>afb441b8-21ab-4626-93b8-44119eebeb06</webElementGuid>
+      <webElementGuid>03b2fb0f-31a0-416e-b4fe-df9383037454</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Calendly']/parent::*</value>
-      <webElementGuid>d1d83be5-3f3e-4a29-a23b-a16f733b119e</webElementGuid>
+      <webElementGuid>a3e39333-afde-423f-b508-aac39c641080</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +143,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0);' and @title = 'Calendly' and (text() = 'Calendly' or . = 'Calendly')]</value>
-      <webElementGuid>03a5df16-d97a-479c-8602-3dca54bd17d0</webElementGuid>
+      <webElementGuid>dc9f4fdc-ed78-42cb-93d0-9b4e4f23b35a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +151,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='2857:0']/div/ul/li[2]/a</value>
-      <webElementGuid>dda721f0-f409-49ad-aadb-2060e9e4d727</webElementGuid>
+      <webElementGuid>20b1c1d3-f8bf-4bde-88a8-2f2a6d6761ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +159,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Calendly')]</value>
-      <webElementGuid>ac3dc647-a1a8-49dd-ad32-cbb8dc39a33b</webElementGuid>
+      <webElementGuid>6b8fd24b-e81a-4364-9464-84e85a2708b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +167,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0);')])[25]</value>
-      <webElementGuid>20d634dd-ff05-433a-b4c4-50a9a8500bc9</webElementGuid>
+      <webElementGuid>31301cc2-c344-421f-8277-b4117f4dac33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +175,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[12]/div/ul/li[2]/a</value>
-      <webElementGuid>8c134693-edd3-47a8-ada3-f0e51e91a9ae</webElementGuid>
+      <webElementGuid>9b487149-8b59-4a18-be36-1352e03f8b5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

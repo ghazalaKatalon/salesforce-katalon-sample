@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mark_00013704</name>
+   <tag></tag>
+   <elementGuidId>8ad9d690-3855-4f61-a01a-275c4c57d512</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mark.data-match</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mark[(text() = '00013704' or . = '00013704')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mark</value>
+      <webElementGuid>ef734f4a-63e4-4f55-8061-334bab58505a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>data-match</value>
+      <webElementGuid>2e53b7e7-8190-4c73-a2ae-84271f5f7969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>00013704</value>
+      <webElementGuid>52b5b23e-f7c0-4a96-9eef-cf98aede0400</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;suggestionsList-496&quot;)/search_dialog-instant-result-item[1]/div[@class=&quot;slds-text-link--reset slds-grid slds-grid--vertical-align-center slds-truncate instant-result-item slds-p-left_small two-fields instant-result-item-record-suggestion focused&quot;]/div[@class=&quot;slds-truncate instant-result-item__content&quot;]/span[@class=&quot;slds-text-body--regular slds-text-color--default slds-truncate slds-show&quot;]/lightning-formatted-rich-text[@class=&quot;primary slds-truncate slds-rich-text-editor__output&quot;]/span[1]/mark[@class=&quot;data-match&quot;]</value>
+      <webElementGuid>2ffcad8d-ecfc-48ea-a865-4a5416d27780</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mark[(text() = '00013704' or . = '00013704')]</value>
+      <webElementGuid>58232f80-40be-44b4-9d56-e93231b835b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::mark[1]</value>
+      <webElementGuid>b09007ee-8ee8-4f1d-b299-2ac9fdaa0552</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search...'])[3]/following::mark[1]</value>
+      <webElementGuid>67b71d91-2239-42b1-80c6-5ed3bbfbe736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Case • Test Demo'])[1]/preceding::mark[1]</value>
+      <webElementGuid>e2209f14-3cf1-432f-a41f-41ee7bf5828f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Show more results for ', '&quot;', '00013704', '&quot;', '')])[1]/preceding::mark[1]</value>
+      <webElementGuid>e86347d9-26d4-4fab-bb47-237caecfe63d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='suggestionsList-496']/search_dialog-instant-result-item/div/div[2]/span/lightning-formatted-rich-text/span/mark</value>
+      <webElementGuid>c6164040-11db-470d-87ca-9a05a7f4b95e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mark</value>
+      <webElementGuid>e1f80744-cccf-40bd-b240-ef6a6fda456a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

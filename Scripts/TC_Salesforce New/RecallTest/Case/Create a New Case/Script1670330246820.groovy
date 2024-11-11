@@ -16,11 +16,16 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-WebUI.waitForElementVisible(findTestObject('OR_Salesforce New/Case/Page_Home  Salesforce/span_Cases'), 10)
+not_run: WebUI.waitForElementVisible(findTestObject('OR_Salesforce New/Case/Page_Home  Salesforce/span_Cases'), 10)
 
-WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Home  Salesforce/span_Cases'))
+not_run: WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Home  Salesforce/span_Cases'))
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_Recently Viewed  Cases  Salesforce/div_New'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/OR_Salesforce New/Case/Page_New Case  Salesforce/h2_New Case'), 
+    10)
+
+WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_New Case  Salesforce/button_Next'))
 
 WebUI.waitForElementVisible(findTestObject('OR_Salesforce New/Case/Page_New Case  Salesforce/input_Jira_Jira__c'), 10)
 
@@ -78,7 +83,7 @@ String caseNumber = WebUI.getText(findTestObject('OR_Salesforce New/Case/Page_00
 
 println('Case Number: ' + caseNumber)
 
-GlobalVariable.caseNumber = caseNumber
+GlobalVariable.CASENUMBER = caseNumber
 
 println('Case Number is: ' + caseNumber)
 

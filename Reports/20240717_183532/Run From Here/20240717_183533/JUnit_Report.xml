@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run From Here" time="200.656" tests="1" failures="0" errors="0">
+   <testsuite name="Run From Here" tests="1" failures="0" errors="0" time="200.656" skipped="0" timestamp="17-07-2024T18:35:38" hostname="mohit - localhost" id="Test Suites/Run From Here">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20240717_183532/Run From Here/20240717_183533"/>
+         <property name="logFiles" value="/Users/mohit/git/salesforce-katalon-sample/Reports/20240717_183532/Run From Here/20240717_183533/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mohit - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="072bd66dfee0d8ea29d7179ede8cd8e8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test Me Here" time="200.469" classname="Test Cases/Test Me Here" status="PASSED">
+         <system-out><![CDATA[17-07-2024T18:35:38 - [TEST_CASE][PASSED] - Test Cases/Test Me Here: Test Cases/Test Me Here
+
+17-07-2024T18:35:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-07-2024T18:35:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-07-2024T18:35:38 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+17-07-2024T18:35:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-07-2024T18:35:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-07-2024T18:35:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-07-2024T18:35:45 - [MESSAGE][PASSED] - Current window maximized
+
+17-07-2024T18:35:45 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-inc--demo.sandbox.my.salesforce.com/"): Navigate to 'https://katalon-inc--demo.sandbox.my.salesforce.com/' successfully
+
+17-07-2024T18:35:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-inc--demo.sandbox.my.salesforce.com/' successfully
+
+17-07-2024T18:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR Salesforce/Page_Login  Salesforce/input_Username_username"), "mohit.kumar@katalon.com.demo"): Text 'mohit.kumar@katalon.com.demo' is set on object 'Object Repository/OR Salesforce/Page_Login  Salesforce/input_Username_username'
+
+17-07-2024T18:36:11 - [MESSAGE][PASSED] - Text 'mohit.kumar@katalon.com.demo' is set on object 'Object Repository/OR Salesforce/Page_Login  Salesforce/input_Username_username'
+
+17-07-2024T18:36:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_pw"), "HWHXedaqLCdga/pq1EsgRw=="): Text ****** has been set on object 'Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_pw'
+
+17-07-2024T18:36:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_pw'
+
+17-07-2024T18:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_Login")): Object: 'Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+17-07-2024T18:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+17-07-2024T18:36:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/OR Salesforce/Page_Home  Salesforce/button_App Launcher"), 20): Object 'Object Repository/OR Salesforce/Page_Home  Salesforce/button_App Launcher' is present
+
+17-07-2024T18:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/OR Salesforce/Page_Home  Salesforce/button_App Launcher' is present
+
+17-07-2024T18:36:52 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/OR Salesforce/Page_Home  Salesforce/span_Leads")): Object: 'Object Repository/OR Salesforce/Page_Home  Salesforce/span_Leads' is clicked on
+
+17-07-2024T18:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_Home  Salesforce/span_Leads' is clicked on
+
+17-07-2024T18:37:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/a_New"), 20): Object 'Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/a_New' is visible
+
+17-07-2024T18:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/a_New' is visible
+
+17-07-2024T18:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/div_New")): Object: 'Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/div_New' is clicked on
+
+17-07-2024T18:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/div_New' is clicked on
+
+17-07-2024T18:38:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/h2_New Lead"), 20): Object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/h2_New Lead' is visible
+
+17-07-2024T18:38:34 - [MESSAGE][PASSED] - Object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/h2_New Lead' is visible
+
+17-07-2024T18:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--' is clicked on
+
+17-07-2024T18:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--' is clicked on
+
+17-07-2024T18:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Mr")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Mr' is clicked on
+
+17-07-2024T18:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Mr' is clicked on
+
+17-07-2024T18:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/input_First Name_firstName"), "Mohit"): Text 'Mohit' is set on object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/input_First Name_firstName'
+
+17-07-2024T18:38:41 - [MESSAGE][PASSED] - Text 'Mohit' is set on object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/input_First Name_firstName'
+
+17-07-2024T18:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__lastName"), "Kumar"): Text 'Kumar' is set on object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__lastName'
+
+17-07-2024T18:38:43 - [MESSAGE][PASSED] - Text 'Kumar' is set on object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__lastName'
+
+17-07-2024T18:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_New")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_New' is clicked on
+
+17-07-2024T18:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_New' is clicked on
+
+17-07-2024T18:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Working")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Working' is clicked on
+
+17-07-2024T18:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Working' is clicked on
+
+17-07-2024T18:38:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1' is clicked on
+
+17-07-2024T18:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1' is clicked on
+
+17-07-2024T18:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Leadership")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Leadership' is clicked on
+
+17-07-2024T18:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Leadership' is clicked on
+
+17-07-2024T18:38:52 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1_2")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1_2' is clicked on
+
+17-07-2024T18:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1_2' is clicked on
+
+17-07-2024T18:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Business Email")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Business Email' is clicked on
+
+17-07-2024T18:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Business Email' is clicked on
+
+17-07-2024T18:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__Email"), "mohit.kumar@katalon.com"): Text 'mohit.kumar@katalon.com' is set on object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__Email'
+
+17-07-2024T18:38:56 - [MESSAGE][PASSED] - Text 'mohit.kumar@katalon.com' is set on object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__Email'
+
+17-07-2024T18:38:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Contact Information"), "Contact Information"): Actual text and expected text of test object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Contact Information' are matched.
+
+17-07-2024T18:38:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Contact Information' are matched.
+
+17-07-2024T18:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_Save")): Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_Save' is clicked on
+
+17-07-2024T18:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_Save' is clicked on
+
+17-07-2024T18:38:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+17-07-2024T18:38:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-07-2024T18:35:38 - [TEST_SUITE][PASSED] - Run From Here: Test Cases/Test Me Here]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run From Here,Chrome 126.0.0.0,,,17-07-2024 18:35:38,17-07-2024 18:38:58,3m - 20.656s,PASSED
+,,,,,,,
+Test Cases/Test Me Here,Chrome 126.0.0.0,,,17-07-2024 18:35:38,17-07-2024 18:38:58,3m - 20.469s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,17-07-2024 18:35:38,17-07-2024 18:35:45,6.700s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,17-07-2024 18:35:45,17-07-2024 18:35:45,0.431s,PASSED
+"navigateToUrl(""https://katalon-inc--demo.sandbox.my.salesforce.com/"")",Chrome 126.0.0.0,,,17-07-2024 18:35:45,17-07-2024 18:35:49,3.766s,PASSED
+"setText(findTestObject(""Object Repository/OR Salesforce/Page_Login  Salesforce/input_Username_username""), ""mohit.kumar@katalon.com.demo"")",Chrome 126.0.0.0,,,17-07-2024 18:35:49,17-07-2024 18:36:11,22.171s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_pw""), ""HWHXedaqLCdga/pq1EsgRw=="")",Chrome 126.0.0.0,,,17-07-2024 18:36:11,17-07-2024 18:36:12,0.648s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_Login  Salesforce/input_Password_Login""))",Chrome 126.0.0.0,,,17-07-2024 18:36:12,17-07-2024 18:36:39,27.005s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/OR Salesforce/Page_Home  Salesforce/button_App Launcher""), 20)",Chrome 126.0.0.0,,,17-07-2024 18:36:39,17-07-2024 18:36:52,13.021s,PASSED
+"enhancedClick(findTestObject(""Object Repository/OR Salesforce/Page_Home  Salesforce/span_Leads""))",Chrome 126.0.0.0,,,17-07-2024 18:36:52,17-07-2024 18:37:23,30.872s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/a_New""), 20)",Chrome 126.0.0.0,,,17-07-2024 18:37:23,17-07-2024 18:38:10,47.660s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_Recently Viewed  Leads  Salesforce/div_New""))",Chrome 126.0.0.0,,,17-07-2024 18:38:10,17-07-2024 18:38:13,3.054s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/h2_New Lead""), 20)",Chrome 126.0.0.0,,,17-07-2024 18:38:14,17-07-2024 18:38:34,20.707s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--""))",Chrome 126.0.0.0,,,17-07-2024 18:38:34,17-07-2024 18:38:36,2.268s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Mr""))",Chrome 126.0.0.0,,,17-07-2024 18:38:36,17-07-2024 18:38:38,1.379s,PASSED
+"setText(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/input_First Name_firstName""), ""Mohit"")",Chrome 126.0.0.0,,,17-07-2024 18:38:38,17-07-2024 18:38:41,3.027s,PASSED
+"setText(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__lastName""), ""Kumar"")",Chrome 126.0.0.0,,,17-07-2024 18:38:41,17-07-2024 18:38:43,1.893s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_New""))",Chrome 126.0.0.0,,,17-07-2024 18:38:43,17-07-2024 18:38:44,1.378s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Working""))",Chrome 126.0.0.0,,,17-07-2024 18:38:44,17-07-2024 18:38:45,0.976s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1""))",Chrome 126.0.0.0,,,17-07-2024 18:38:45,17-07-2024 18:38:46,0.626s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Leadership""))",Chrome 126.0.0.0,,,17-07-2024 18:38:46,17-07-2024 18:38:52,6.007s,PASSED
+"enhancedClick(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_--None--_1_2""))",Chrome 126.0.0.0,,,17-07-2024 18:38:52,17-07-2024 18:38:54,2.216s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Business Email""))",Chrome 126.0.0.0,,,17-07-2024 18:38:54,17-07-2024 18:38:55,0.711s,PASSED
+"setText(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/input__Email""), ""mohit.kumar@katalon.com"")",Chrome 126.0.0.0,,,17-07-2024 18:38:55,17-07-2024 18:38:56,1.216s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/span_Contact Information""), ""Contact Information"")",Chrome 126.0.0.0,,,17-07-2024 18:38:56,17-07-2024 18:38:56,0.407s,PASSED
+"click(findTestObject(""Object Repository/OR Salesforce/Page_New Lead  Salesforce/button_Save""))",Chrome 126.0.0.0,,,17-07-2024 18:38:56,17-07-2024 18:38:58,1.526s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,17-07-2024 18:38:58,17-07-2024 18:38:58,0.404s,PASSED

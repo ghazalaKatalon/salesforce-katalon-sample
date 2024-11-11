@@ -6,6 +6,10 @@
    <elementGuidId>2bc98900-cc43-419d-83f5-b5da17a5e953</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Working' and (text() = 'Working' or . = 'Working')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendly'])[1]/following::span[3]</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#combobox-button-178-3-178 > span.slds-media__body > span.slds-truncate</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5ddcc3c0-0169-4763-943d-bef1f87bf9ec</webElementGuid>
+      <webElementGuid>725cd421-0c4c-4e46-9737-a604b18f168f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slds-truncate</value>
-      <webElementGuid>b292c22a-0020-40bf-867f-248ce4b04bb7</webElementGuid>
+      <webElementGuid>063db7a4-eb8d-4106-9b9e-dfb80c37f9f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Working</value>
-      <webElementGuid>4338394d-24ce-42da-87d2-5093260470bc</webElementGuid>
+      <webElementGuid>f591964c-16c6-4f91-9a85-078c11f1cef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Working</value>
-      <webElementGuid>8e78d78b-9da1-4366-9598-45f4debecd56</webElementGuid>
+      <webElementGuid>001af28d-5680-4754-b01a-e93c6db65dcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;combobox-button-178-3-178&quot;)/span[@class=&quot;slds-media__body&quot;]/span[@class=&quot;slds-truncate&quot;]</value>
-      <webElementGuid>bdfc8d3b-fcfa-40c3-a57f-32c56a6f3174</webElementGuid>
+      <webElementGuid>4ca31378-e09b-4589-8e6d-dd49c469117c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendly'])[1]/following::span[3]</value>
-      <webElementGuid>c30f8be1-8491-4231-8df5-335ec15c451d</webElementGuid>
+      <webElementGuid>2141bdc3-6882-410b-825f-575223971ce9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[3]/following::span[6]</value>
-      <webElementGuid>162c1dce-8ad7-4b5a-87d0-439bbf43277b</webElementGuid>
+      <webElementGuid>9553d366-e46f-44db-9bab-4a35f33e40d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nurturing'])[1]/preceding::span[2]</value>
-      <webElementGuid>22b69538-2704-40c6-8505-7ef8b527da50</webElementGuid>
+      <webElementGuid>ca1a06d7-9a33-4728-bea6-3fb73f931603</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualified'])[1]/preceding::span[5]</value>
-      <webElementGuid>18a1ddca-fc42-4df9-814d-8428766b7165</webElementGuid>
+      <webElementGuid>0eae6feb-ca59-4323-aee5-473e124ce5c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Working']/parent::*</value>
-      <webElementGuid>b2be27e6-b247-4a21-9d6f-eb1e2e65ac33</webElementGuid>
+      <webElementGuid>b8614e7a-8c8b-4c71-bbc8-3d2728bacdd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@title = 'Working' and (text() = 'Working' or . = 'Working')]</value>
-      <webElementGuid>e3250d4e-9913-4fd0-a039-b7c209e1d401</webElementGuid>
+      <webElementGuid>56a2493a-4381-4f5a-81c6-d109831e7083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//lightning-base-combobox-item[@id='combobox-button-178-3-178']/span[2]/span</value>
-      <webElementGuid>90f25aad-7036-4219-839d-05b41dc91fe2</webElementGuid>
+      <webElementGuid>02ce9a1a-9f63-4fa1-b7ff-6a2be311afc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//records-form-picklist/lightning-picklist/lightning-combobox/div/lightning-base-combobox/div/div[2]/lightning-base-combobox-item[4]/span[2]/span</value>
-      <webElementGuid>16cce723-75dd-45a5-a2aa-35148006744c</webElementGuid>
+      <webElementGuid>47b426c6-9f8d-4442-96a7-e8861190dee2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

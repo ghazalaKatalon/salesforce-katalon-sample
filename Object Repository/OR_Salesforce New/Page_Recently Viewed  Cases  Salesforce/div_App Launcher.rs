@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_App Launcher</name>
+   <tag></tag>
+   <elementGuidId>4cd486ca-24dd-4b9c-abf1-b3e1f066e94b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.slds-icon-waffle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'App Launcher' or . = 'App Launcher')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6eeb6912-d713-416c-b864-947fa8c40a2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-icon-waffle</value>
+      <webElementGuid>a54e06dd-5e5e-4b21-9224-c701d7b545d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>App Launcher</value>
+      <webElementGuid>a55889c3-e88b-4930-898b-c82f7e6f589f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;window&quot;)/button[@class=&quot;slds-button slds-show&quot;]/div[@class=&quot;slds-icon-waffle&quot;]</value>
+      <webElementGuid>636d20f6-3657-4c2f-9a28-55ee5d17ddff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'App Launcher' or . = 'App Launcher')]</value>
+      <webElementGuid>e4fe6462-e1a1-4107-9762-cb4f506295b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View profile'])[1]/following::div[8]</value>
+      <webElementGuid>8206568c-8da9-4184-a810-0163f237e2ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::div[11]</value>
+      <webElementGuid>e747b4aa-6c83-452b-b819-a7b6fe2fa71d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Manager'])[3]/preceding::div[10]</value>
+      <webElementGuid>81fb3886-95aa-4767-abf2-c352e20c5b9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//one-app-launcher-header[@id='window']/button/div</value>
+      <webElementGuid>351be460-433e-469d-b6de-a420e15b736d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//one-app-launcher-header/button/div</value>
+      <webElementGuid>2dbfbd17-4264-4634-82d1-f65f6ba8a9c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

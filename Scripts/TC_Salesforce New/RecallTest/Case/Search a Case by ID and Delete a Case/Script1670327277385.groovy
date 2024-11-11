@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Lead/Page_Recent
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('OR_Salesforce New/Lead/Page_Recently Viewed  Leads  Salesforce/input_search'), GlobalVariable.caseNumber)
+WebUI.sendKeys(findTestObject('OR_Salesforce New/Lead/Page_Recently Viewed  Leads  Salesforce/input_search'), GlobalVariable.CASENUMBER)
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Case/Page_00001063  Salesforce/span_Case  Case for Testing'))
 
@@ -40,5 +40,5 @@ String caseDeleted = WebUI.getText(findTestObject('Object Repository/OR_Salesfor
 
 println('Case Deleted: ' + caseDeleted)
 
-WebUI.verifyMatch(caseDeleted, 'Case "'+GlobalVariable.caseNumber+'" was deleted. ', true, FailureHandling.OPTIONAL)
+WebUI.verifyMatch(caseDeleted, 'Case "'+GlobalVariable.CASENUMBER+'" was deleted. ', true, FailureHandling.OPTIONAL)
 

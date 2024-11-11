@@ -35,7 +35,7 @@ class WebTestListener {
 		}
 	}
 
-	@BeforeTestCase
+	//@BeforeTestCase
 	def sampleBeforeTestCase3(TestCaseContext testCaseContext) {
 		if(GlobalVariable.SKIP_REMAINING_TESTS==true){
 			testCaseContext.skipThisTestCase()
@@ -44,7 +44,7 @@ class WebTestListener {
 	}
 
 
-	@AfterTestCase
+	//@AfterTestCase
 	def sampleAfterTestCase2(TestCaseContext testCaseContext) {
 		if(testCaseContext.testCaseStatus=='FAILED'){
 			GlobalVariable.SKIP_REMAINING_TESTS = true

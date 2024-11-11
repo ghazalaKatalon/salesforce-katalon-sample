@@ -4,5 +4,19 @@
    <name>Create a Lead</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>67f0cd2c-c10e-4ebf-9946-28ed55f825c1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e56fb0f1-4aed-42bc-b044-0efb60d09827</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e56fb0f1-4aed-42bc-b044-0efb60d09827</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
 </TestCaseEntity>

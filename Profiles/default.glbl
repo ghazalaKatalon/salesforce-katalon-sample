@@ -11,22 +11,42 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Enter your username'</initValue>
+      <initValue>'mohit.kumar@katalon.com.demo'</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Enter your password'</initValue>
+      <initValue>'HWHXedaqLCdga/pq1EsgRw=='</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'00000001'</initValue>
-      <name>caseNumber</name>
+      <initValue>'00013720'</initValue>
+      <name>CASENUMBER</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'false'</initValue>
       <name>SKIP_REMAINING_TESTS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>MDELAY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>SDELAY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>120</initValue>
+      <name>LDELAY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cases'</initValue>
+      <name>APPNAME</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

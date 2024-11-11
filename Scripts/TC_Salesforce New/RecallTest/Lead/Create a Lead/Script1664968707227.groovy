@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
+not_run: WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
+
+WebUI.callTestCase(findTestCase('TC_Salesforce New/RecallTest/SetupTeardown/App Launcher'), [('appName') : 'Leads'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/div_New'))
 
@@ -51,6 +53,12 @@ WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead 
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/input_Department_Department__c'), 
     'Testing')
+
+WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Lead/Page_New Lead  Salesforce/button_--None--Lead Source'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OR_Salesforce New/Lead/Page_New Lead  Salesforce/span_Business Email'))
 
 WebUI.setText(findTestObject('Object Repository/OR_Salesforce New/Page_New Lead  Salesforce/div_Email'), 'mohit.kumar@katalon.com')
 

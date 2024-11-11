@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_App Launcher</name>
+   <tag></tag>
+   <elementGuidId>b98ae8d6-e6cb-4413-8132-3ce3ea33f326</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@title = 'App Launcher' and (text() = 'App Launcher' or . = 'App Launcher')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.slds-button.slds-context-bar__button.slds-icon-waffle_container.slds-show</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;App Launcher&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3d958b8c-40ce-4c0f-bc3f-9caab385f7c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>66aeb56e-f7b8-4d4b-8b13-8cef9cb91c12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-button slds-context-bar__button slds-icon-waffle_container slds-show</value>
+      <webElementGuid>303e3bdc-d6e7-4373-ae94-785c7e908b58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-target-selection-name</name>
+      <type>Main</type>
+      <value>181c7013df09423d8f755b49c067f6f3</value>
+      <webElementGuid>4725e594-b74a-45b0-b24c-687d95b0b242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>App Launcher</value>
+      <webElementGuid>ea1c9b95-4048-4180-8ac4-2cef3a48c3e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>66067f3b-e45a-4629-b5f2-0b00480beec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>App Launcher</value>
+      <webElementGuid>ddb36763-bba5-4e86-80fe-7d192e9ea689</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;desktop&quot;]/div[@class=&quot;desktop container forceStyle oneOne navexDesktopLayoutContainer lafAppLayoutHost forceAccess tablet&quot;]/div[@class=&quot;viewport&quot;]/section[@class=&quot;layoutContent stage panelSlide hasFixedFooter&quot;]/div[@class=&quot;none navexStandardManager&quot;]/div[@class=&quot;slds-no-print oneAppNavContainer&quot;]/one-appnav[1]/div[@class=&quot;slds-context-bar&quot;]/div[@class=&quot;slds-context-bar__primary navLeft&quot;]/div[@class=&quot;slds-context-bar__item slds-context-bar_dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger--click slds-no-hover&quot;]/div[@class=&quot;appLauncher slds-context-bar__icon-action&quot;]/one-app-launcher-header[1]/button[@class=&quot;slds-button slds-context-bar__button slds-icon-waffle_container slds-show&quot;]</value>
+      <webElementGuid>331658bf-1bf0-46ee-96d7-c23e138a5999</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'App Launcher' and (text() = 'App Launcher' or . = 'App Launcher')]</value>
+      <webElementGuid>fefacedb-0126-423e-beb8-dc22abede1d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View profile'])[1]/following::button[1]</value>
+      <webElementGuid>a798b11a-a050-4803-8337-044101cdbf20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::button[2]</value>
+      <webElementGuid>c368070f-7141-42e5-a143-363a418274c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales Manager'])[3]/preceding::button[1]</value>
+      <webElementGuid>69297884-7d43-433c-bb3c-b10a9346c0e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//one-app-launcher-header/button</value>
+      <webElementGuid>b494f6ed-bc5e-45a9-bbf4-fcea06c1736b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

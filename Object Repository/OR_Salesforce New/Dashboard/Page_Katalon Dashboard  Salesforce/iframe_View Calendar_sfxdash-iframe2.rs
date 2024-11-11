@@ -6,6 +6,10 @@
    <elementGuidId>da7379b1-fff0-45db-81d8-6ec70dd15f67</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>iframe[name=&quot;sfxdash-1670340334332-542841&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//iframe[@title = 'dashboard']</value>
       </entry>
@@ -13,12 +17,9 @@
          <key>XPATH</key>
          <value>(//iframe[@title = 'dashboard'])[2]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>iframe[name=&quot;sfxdash-1670340334332-542841&quot;]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>3619124e-f59a-44b1-90c0-495044385612</webElementGuid>
+      <webElementGuid>bdd8efa6-3a52-4143-86aa-0909c3bc6edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +35,7 @@
       <name>name</name>
       <type>Main</type>
       <value>sfxdash-1670340334332-542841</value>
-      <webElementGuid>a883efc5-6177-40b9-a2c5-3d2974953630</webElementGuid>
+      <webElementGuid>d2428829-7fd2-43ce-b16b-55f93c9bc81f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +43,7 @@
       <name>title</name>
       <type>Main</type>
       <value>dashboard</value>
-      <webElementGuid>bec65c73-c520-48e4-a95a-49deaf50d5c7</webElementGuid>
+      <webElementGuid>7be1d0dc-4b5c-4be0-901e-921335e0b090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +51,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://katalon-inc--demo.sandbox.lightning.force.com/desktopDashboards/dashboardApp.app?dashboardId=01Z5D000000EeERUA0&amp;displayMode=edit&amp;networkId=000000000000000&amp;userId=0055D000004N9ctQAC</value>
-      <webElementGuid>ae63696e-d966-4c94-9d3c-841a88b06ccf</webElementGuid>
+      <webElementGuid>27c16cc6-5301-41e2-889a-fe7f633e8b2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +59,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>9c30b170-a06b-4c5f-b499-81d6ea7a4a1f</webElementGuid>
+      <webElementGuid>d2567ca8-9e1c-48be-8479-aa2125968c25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/div[@class=&quot;standalone dashboardTopLevelContainer desktopDashboardsDashboard&quot;]/div[@class=&quot;dashboardContainer&quot;]/iframe[1]</value>
-      <webElementGuid>8f8cc377-dedb-4cba-87db-dff84f88a7fc</webElementGuid>
+      <webElementGuid>1449dc1f-07e6-462b-968e-43a8afb7e49f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +75,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@name = 'sfxdash-1670340334332-542841' and @title = 'dashboard' and @src = 'https://katalon-inc--demo.sandbox.lightning.force.com/desktopDashboards/dashboardApp.app?dashboardId=01Z5D000000EeERUA0&amp;displayMode=edit&amp;networkId=000000000000000&amp;userId=0055D000004N9ctQAC']</value>
-      <webElementGuid>546a04ce-108f-4914-b79a-db9fb6ca3df3</webElementGuid>
+      <webElementGuid>bca1498e-9594-4c05-b895-8853537beb2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@name='sfxdash-1670340334332-542841']</value>
-      <webElementGuid>9edb416a-a701-4e1b-a1f2-7402f8c7a5b5</webElementGuid>
+      <webElementGuid>2ea6b54e-799e-478f-8043-6d3f33f9a10b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='brandBand_2']/div/div/div[4]/div/div[2]/iframe</value>
-      <webElementGuid>28024314-402d-4e73-abda-849f5f9e80ba</webElementGuid>
+      <webElementGuid>ce8451fa-c9ed-4552-9fcf-dac1859baad3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/iframe</value>
-      <webElementGuid>37e87354-444e-42d8-8a74-e264dd11f9e8</webElementGuid>
+      <webElementGuid>e44b201d-0c3a-4221-bf2a-86c647b6e755</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

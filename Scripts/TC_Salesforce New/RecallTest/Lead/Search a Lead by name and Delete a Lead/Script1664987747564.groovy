@@ -23,7 +23,15 @@ WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/input_search'), 'Mohit Kumar Sharma')
 
-WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img'))
+WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/img'))
+
+WebUI.enhancedClick(findTestObject('Object Repository/OR_Salesforce New/Page_Home  Salesforce/span_Leads'))
+
+WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Recently Viewed  Leads  Salesforce/span_Action_slds-checkbox--faux'))
+
+WebUI.enhancedClick(findTestObject('OR_Salesforce New/Lead/Page_Recently Viewed  Leads  Salesforce/a_Show more actions'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/OR_Salesforce New/Page_Mohit Sharma  Salesforce/button_Delete'))
 

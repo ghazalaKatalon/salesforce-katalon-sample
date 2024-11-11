@@ -4,5 +4,6 @@
    <name>Change the Lead Owner</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d02cf161-97f6-48d0-b125-733ce0eb2908</testCaseGuid>
 </TestCaseEntity>
