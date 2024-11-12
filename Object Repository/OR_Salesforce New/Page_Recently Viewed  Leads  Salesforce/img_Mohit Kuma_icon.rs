@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>.//div[contains(@title, 'Bhagyesh Nanwani')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>.//div[contains(@title, 'Gokul Sridharan')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@class = 'icon ' and @alt = 'User' and @title = 'User']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>9f81fc59-25e2-465d-ad7b-485ab77f6c70</webElementGuid>
+      <webElementGuid>b7f076e1-f5cf-45a2-806d-3102ee98c49c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>data-aura-rendered-by</name>
       <type>Main</type>
       <value>6:2347;a</value>
-      <webElementGuid>3d9e2d43-77fb-4a3c-b970-9ab62c5e4032</webElementGuid>
+      <webElementGuid>79aae25c-1247-48b3-9d5e-a324906a3637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://katalon-inc--demo.sandbox.my.salesforce.com/img/icon/t4v35/standard/user_120.png</value>
-      <webElementGuid>712aec0f-c60b-4820-88f3-10a844ca31d9</webElementGuid>
+      <webElementGuid>e23718d6-c31e-4992-86aa-f814be8d4c40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon </value>
-      <webElementGuid>2c123ccc-1ad7-4dc9-ba99-6e4e919f7754</webElementGuid>
+      <webElementGuid>27f49440-1a8f-4708-a1ad-0e0d7ef8f891</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>User</value>
-      <webElementGuid>e751af13-5878-467f-9bcf-d2578f408f38</webElementGuid>
+      <webElementGuid>e6c64c24-1555-49ca-8c0d-efbc7b5a5b11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>title</name>
       <type>Main</type>
       <value>User</value>
-      <webElementGuid>1907ca92-8ecd-4dbc-a968-8fade12089a0</webElementGuid>
+      <webElementGuid>c281ca76-89b0-46b3-807b-e92f0c09284a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;1:2347;a&quot;)/div[@class=&quot;mruIcon slds-icon slds-icon--small slds-float--left slds-m-vertical--xx-small slds-m-left--xx-small slds-media__figure forceEntityIcon&quot;]/span[@class=&quot;uiImage&quot;]/img[@class=&quot;icon&quot;]</value>
-      <webElementGuid>bb25c332-9c51-48b6-9851-e5015f60e13e</webElementGuid>
+      <webElementGuid>a8c36d45-3428-44f5-a643-671f093079b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='1:2347;a']/div/span/img</value>
-      <webElementGuid>a52a2e07-efa8-45cb-bba8-7ae676a13ce9</webElementGuid>
+      <webElementGuid>8d1d0833-7569-4cd4-a1ae-a778884ca4e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[@alt='User'])[3]</value>
-      <webElementGuid>dc12c8a4-2b5a-41a1-a2be-d332d4f6d4e6</webElementGuid>
+      <webElementGuid>29294604-ff73-4d9d-8554-9198beff6232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/div/span/img</value>
-      <webElementGuid>00b790cc-2715-4aa7-a236-6394a66a06ec</webElementGuid>
+      <webElementGuid>f410ef57-9264-414e-9c04-58f14437fd42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://katalon-inc--demo.sandbox.my.salesforce.com/img/icon/t4v35/standard/user_120.png' and @class = 'icon ' and @alt = 'User' and @title = 'User']</value>
-      <webElementGuid>53fe9c0e-7a33-44f1-a371-4b1c3fbddd29</webElementGuid>
+      <webElementGuid>02c72412-a2be-4b8d-ade6-7fc9dd1b0ee9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

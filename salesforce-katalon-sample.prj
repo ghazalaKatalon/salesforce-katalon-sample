@@ -8,9 +8,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.0.0</modifiedVersion>
+   <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/mohit/git/salesforce-katalon-sample/salesforce-katalon-sample.prj</projectFileLocation>
+   <projectFileLocation>/Users/ghazalashahin/Documents/latest/salesforce-katalon-sample/salesforce-katalon-sample.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
